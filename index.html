@@ -30,8 +30,17 @@
             margin: 0 auto 0 auto; 
             box-shadow: 10px 10px 20px rgba(0,0,0, 0.4);
         }
+        h1{
+            font-size: 35px;
+        }
         h1, h2 {
             text-align: center;
+        }
+        table{
+            border-collapse: collapse;
+        }
+        th, td {
+            border: 1px solid gray;
         }
     </style>
 </head>
@@ -42,6 +51,31 @@
     <section class="container">
         <h1>JS <span id="title-part">Sheet</span></h1>
         <h2>A JS-based Spreadsheet App</h2>
+
+        <!-- SPREADSHEET TABLE -->
+        <table>
+            <thead>
+                <tr>
+                    <th>Product</th>
+                    <th>Cost</th>
+                    <th>Price</th>
+                    <th>Profit</th>
+                    <th>Units Projected</th>
+                    <th>Total Sales</th>
+                    <th>Total Profit</th>
+                </tr>
+            </thead>
+            <tbody>
+                <td>Chocolate Raisins</td>
+                <td>20.95</td>
+                <td>35.95</td>
+                <td>15</td>
+                <td>700</td>
+                <td>25165</td>
+                <td>10500</td>
+            </tbody>
+        </table>
+        <!-- /SPREADSHEET TABLE -->
         <p><span class="capital">L</span>orem ipsum, dolor sit amet consectetur adipisicing elit.
             Aspernatur unde, neque aut tenetur quia quidem recusandae
             inventore reiciendis,fugiat, rerum amet natus repellendus
