@@ -1,41 +1,59 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>JS EXCEL</title>
     <style>
-       #title-part {
-           color: yellowgreen;
-       }
-       .capital{
-           font-weight: bolder;
-           font-size: 24px;      
-       }         
+        #title-part {
+            color: yellowgreen;
+        }
+
+        .capital {
+            font-weight: bolder;
+            font-size: 24px;
+        }
+
+        section.container {
+            border: 10px solid indigo;
+            padding: 20px;
+            max-width: 800px;
+            margin-left: auto;
+            margin-right: auto;
+            /* Comments: CTRL + / or Cmd + /  */
+            /* margin: margin-top margin-right margin-bottom margin-left */
+            /* it's 0 top and go clockwise, auto right etc etc */
+            margin: 0 auto 0 auto; 
+        }
     </style>
 </head>
 
 <body>
 
-    <h1>JS <span id="title-part">Sheet</span></h1>
-    <h2>Subtitle</h2>
-    <p><span class="capital">L</span>orem ipsum, dolor sit amet consectetur adipisicing elit.
-    Aspernatur unde, neque aut tenetur quia quidem recusandae 
-    inventore reiciendis,fugiat, rerum amet natus repellendus 
-    assumenda atque quod non eveniet officiis nulla?
-    </p>
-    
-    <p>
-        <span class="capital">S</span>it amet consectetur adipisicing elit.
-        Eligendi alias id culpa dolores quasi, magni laborum 
-        obcaecati dolor fugiat quo molestias doloremque, necessitatibus 
-        neque illum repudiandae voluptas, ipsum tempora temporibus.
-        Quam sunt incidunt blanditiis minima facere dolor veniam, 
-        possimus asperiores autem nemo, quo nam ullam eaque aut
-        explicabo velit eligendi laudantium maxime vero in dolorem
-        eum, perspiciatis error! Expedita, qui?
-    </p>
-   
+    <!-- Emmet: section.container -->
+    <section class="container">
+        <h1>JS <span id="title-part">Sheet</span></h1>
+        <h2>Subtitle</h2>
+        <p><span class="capital">L</span>orem ipsum, dolor sit amet consectetur adipisicing elit.
+            Aspernatur unde, neque aut tenetur quia quidem recusandae
+            inventore reiciendis,fugiat, rerum amet natus repellendus
+            assumenda atque quod non eveniet officiis nulla?
+        </p>
+        <p>
+            <span class="capital">S</span>it amet consectetur adipisicing elit.
+            Eligendi alias id culpa dolores quasi, magni laborum
+            obcaecati dolor fugiat quo molestias doloremque, necessitatibus
+            neque illum repudiandae voluptas, ipsum tempora temporibus.
+            Quam sunt incidunt blanditiis minima facere dolor veniam,
+            possimus asperiores autem nemo, quo nam ullam eaque aut
+            explicabo velit eligendi laudantium maxime vero in dolorem
+            eum, perspiciatis error! Expedita, qui?
+        </p>
+    </section>
+
+
 </body>
+
 </html>
