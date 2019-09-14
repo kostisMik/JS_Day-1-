@@ -7,16 +7,18 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>JS EXCEL</title>
     <style>
+        body {
+            background-color: #eee;
+        }
         #title-part {
             color: yellowgreen;
         }
-
         .capital {
             font-weight: bolder;
             font-size: 24px;
         }
-
         section.container {
+            background-color: white;
             border: 10px solid indigo;
             padding: 20px;
             max-width: 800px;
@@ -26,6 +28,10 @@
             /* margin: margin-top margin-right margin-bottom margin-left */
             /* it's 0 top and go clockwise, auto right etc etc */
             margin: 0 auto 0 auto; 
+            box-shadow: 10px 10px 20px rgba(0,0,0, 0.4);
+        }
+        h1, h2 {
+            text-align: center;
         }
     </style>
 </head>
@@ -35,7 +41,7 @@
     <!-- Emmet: section.container -->
     <section class="container">
         <h1>JS <span id="title-part">Sheet</span></h1>
-        <h2>Subtitle</h2>
+        <h2>A JS-based Spreadsheet App</h2>
         <p><span class="capital">L</span>orem ipsum, dolor sit amet consectetur adipisicing elit.
             Aspernatur unde, neque aut tenetur quia quidem recusandae
             inventore reiciendis,fugiat, rerum amet natus repellendus
